@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hello 2.1.1\n"
 "POT-Creation-Date: 2002-05-22 19:23+0200\n"
-"PO-Revision-Date: 2004-02-29 10:59+0800\n"
+"PO-Revision-Date: 2004-03-04 19:15+0800\n"
 "Last-Translator: Meng Jie <zuxyhere@eastday.com>\n"
 "Language-Team: Chinese (simplified) <i18n-translation@lists.linux.net.cn>\n"
 "MIME-Version: 1.0\n"
@@ -162,7 +162,7 @@ msgstr "%s：你是谁？\n"
 #: src/hello.c:282
 #, c-format
 msgid "%s: Cannot find your mail spool file.\n"
-msgstr "%s：找不到您的信筒文件。\n"
+msgstr "%s：找不到您的邮件卷轴文件。\n"
 
 #: src/hello.c:326
 msgid "Nothing happens here."
