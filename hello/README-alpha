@@ -1,0 +1,16 @@
+This is a test release of GNU Hello.
+Please do not send reports about this release to any
+GNU mailing list or newsgroup.
+
+Please send all bug reports to Karl Eichwalder <keichwa@gmx.net>.
+
+If you're interested in the development of GNU hello and/or in
+pre-testing forthcoming releases, please subscribe to the `hello-list'
+at gnu.franken.de.  Send an subscribe request to
+
+    hello-list-request@gnu.franken.de
+
+with the text "subscribe".
+
+Note the gnu.franken.de is connected to the Internet via UUCP; expect
+delays.  In kind of trouble ask Karl Eichwalder <keichwa@gmx.net>.
