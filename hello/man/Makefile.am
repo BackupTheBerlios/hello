@@ -10,7 +10,7 @@ CLEANFILES = $(man_MANS)
 #  Makefile.maint GNUmakefile Makefile.summ
 
 hello.1: ../src/hello $(HELP2MAN)
-	$(PERL) $(srcdir)/$(HELP2MAN) --name="Friendly Greeting Program" \
+	-$(PERL) $(srcdir)/$(HELP2MAN) --name="Friendly Greeting Program" \
 	  ../src/hello >$@
 
 MAINTAINERCLEANFILES = $(man_MANS)
