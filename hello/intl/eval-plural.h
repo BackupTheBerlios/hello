@@ -1,5 +1,5 @@
 /* Plural expression evaluation.
-   Copyright (C) 2000-2002 Free Software Foundation, Inc.
+   Copyright (C) 2000-2003 Free Software Foundation, Inc.
 
    This program is free software; you can redistribute it and/or modify it
    under the terms of the GNU Library General Public License as published
@@ -16,21 +16,17 @@
    Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
    USA.  */
 
+#include <signal.h>
+
 #ifndef STATIC
 #define STATIC static
 #endif
 
 /* Evaluate the plural expression and return an index value.  */
-STATIC unsigned long int plural_eval PARAMS ((struct expression *pexp,
-					      unsigned long int n))
-     internal_function;
-
 STATIC
 unsigned long int
 internal_function
-plural_eval (pexp, n)
-     struct expression *pexp;
-     unsigned long int n;
+plural_eval (struct expression *pexp, unsigned long int n)
 {
   switch (pexp->nargs)
     {
@@ -68,8 +64,12 @@ plural_eval (pexp, n)
 	      case mult:
 		return leftarg * rightarg;
 	      case divide:
+		if (rightarg == 0)
+		  raise (SIGFPE);
 		return leftarg / rightarg;
 	      case module:
+		if (rightarg == 0)
+		  raise (SIGFPE);
 		return leftarg % rightarg;
 	      case plus:
 		return leftarg + rightarg;
