@@ -11,8 +11,6 @@ dnl AC_SUBST(PACKAGE_BUGREPORT, bug-gnu-hello@gnu.org)
 dnl AH_TEMPLATE(PACKAGE_BUGREPORT)
 dnl AC_DEFINE_UNQUOTED(PACKAGE_BUGREPORT, "$PACKAGE_BUGREPORT")
 
-dnl Set of available languages now in po/LINGUAS.
-
 dnl Checks for programs.
 AC_PROG_CC
 AC_ISC_POSIX
@@ -42,11 +40,12 @@ AC_CHECK_MEMBERS([struct stat.st_blksize],[AC_DEFINE(HAVE_ST_BLKSIZE, 1,
 
 dnl internationalization macros
 AM_GNU_GETTEXT
+AM_GNU_GETTEXT_VERSION
 
 dnl for help2man
 AC_CHECK_PROG(PERL, perl, perl)
 
-AC_CONFIG_FILES([Makefile contrib/Makefile doc/Makefile intl/Makefile \
+AC_CONFIG_FILES([Makefile contrib/Makefile doc/Makefile  intl/Makefile \
            man/Makefile po/Makefile.in \
 	   m4/Makefile \
            src/Makefile tests/Makefile])

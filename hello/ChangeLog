@@ -1,3 +1,7 @@
+2004-05-16  Karl Eichwalder  <ke@gnu.franken.de>
+
+	* configure.ac (AM_GNU_GETTEXT_VERSION): Add.
+
 2002-07-20  Karl Eichwalder  <keichwa@gmx.net>
 
 	* Makefile.am (DISTCLEANFILES): New variable, add stamp-h created
