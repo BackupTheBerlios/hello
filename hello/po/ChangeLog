@@ -1,3 +1,39 @@
+2003-02-26  Karl Eichwalder  <ke@gnu.franken.de>
+
+	* ka.po: New file (Nugzar Nebieridze)
+	* LINGUAS: Add ka.
+
+2002-12-07  Karl Eichwalder  <ke@gnu.franken.de>
+
+	* fa.po: New file (Behdad Esfahbod).
+	* LINGUAS: Add fa.
+
+2002-11-03  Karl Eichwalder  <keichwa@gmx.net>
+
+	* es_AR.po: New file (Cesar H. Roldan).
+	* LINGUAS: Add es_AR.
+
+	* 2002-07 - 2002-11:
+	* fi.po: Update (Tommi Vainikainen).
+	* fr.po: Update (Michel Robitaille).
+	* pt_BR.po: Update (Alexandre Folle de Menezes).
+
+2002-07-20  Karl Eichwalder  <keichwa@gmx.net>
+
+	* Makevars (XGETTEXT_OPTIONS): Add --no-wrap.
+
+2002-07-20  Karl Eichwalder  <keichwa@gmx.net>
+
+	* 2002-06:
+	* es.po: Update (Santiago Vila Doncel).
+	* ru.po: Update (Oleg S. Tihonov).
+	* sk.po: Update (Marcel Telka).
+
+2002-05-29  Karl Eichwalder  <keichwa@gmx.net>
+
+	* 2002-05:
+	* sk.po: Update (Marcel Telka).
+
 2002-05-22  Karl Eichwalder  <keichwa@gmx.net>
 
 	* 2002-05:

@@ -2,7 +2,7 @@
 # Copyright (C) 1996 Free Software Foundation, Inc.
 # Primoz Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996.
 #
-# $Header: /home/xubuntu/berlios_backup/github/tmp-cvs/hello/Repository/hello/po/sl.po,v 1.1 2003/05/01 03:37:03 keichwa Exp $
+# $Header: /home/xubuntu/berlios_backup/github/tmp-cvs/hello/Repository/hello/po/sl.po,v 1.2 2003/05/01 17:50:08 keichwa Exp $
 #
 msgid ""
 msgstr ""

@@ -1,7 +1,7 @@
 Dies ist hello.info, hergestellt von Makeinfo Version 4.2 aus
 hello.texi.
 
-This file documents the the GNU `hello' command for printing a greeting
+This file documents the GNU `hello' command for printing a greeting
 message.
 
    Copyright (C) 1992, 1993, 1996, 2002 Free Software Foundation, Inc.
@@ -63,7 +63,7 @@ GNU GENERAL PUBLIC LICENSE
 
                          Version 2, June 1991
      Copyright (C) 1989, 1991 Free Software Foundation, Inc.
-     675 Mass Ave, Cambridge, MA 02139, USA
+     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
      
      Everyone is permitted to copy and distribute verbatim copies
      of this license document, but changing it is not allowed.
@@ -120,16 +120,16 @@ patent must be licensed for everyone's free use or not licensed at all.
 modification follow.
 
     TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-  1. This License applies to any program or other work which contains a
+  0. This License applies to any program or other work which contains a
      notice placed by the copyright holder saying it may be distributed
-     under the terms of this General Public License.  The "Program",
+     under the terms of this General Public License.  The "Program,"
      below, refers to any such program or work, and a "work based on
      the Program" means either the Program or any derivative work under
      copyright law: that is to say, a work containing the Program or a
      portion of it, either verbatim or with modifications and/or
      translated into another language.  (Hereinafter, translation is
-     included without limitation in the term "modification".)  Each
-     licensee is addressed as "you".
+     included without limitation in the term "modification.")  Each
+     licensee is addressed as "you."
 
      Activities other than copying, distribution and modification are
      not covered by this License; they are outside its scope.  The act
@@ -138,7 +138,7 @@ modification follow.
      the Program (independent of having been made by running the
      Program).  Whether that is true depends on what the Program does.
 
-  2. You may copy and distribute verbatim copies of the Program's
+  1. You may copy and distribute verbatim copies of the Program's
      source code as you receive it, in any medium, provided that you
      conspicuously and appropriately publish on each copy an appropriate
      copyright notice and disclaimer of warranty; keep intact all the
@@ -150,7 +150,7 @@ modification follow.
      and you may at your option offer warranty protection in exchange
      for a fee.
 
-  3. You may modify your copy or copies of the Program or any portion
+  2. You may modify your copy or copies of the Program or any portion
      of it, thus forming a work based on the Program, and copy and
      distribute such modifications or work under the terms of Section 1
      above, provided that you also meet all of these conditions:
@@ -196,7 +196,7 @@ modification follow.
      a volume of a storage or distribution medium does not bring the
      other work under the scope of this License.
 
-  4. You may copy and distribute the Program (or a work based on it,
+  3. You may copy and distribute the Program (or a work based on it,
      under Section 2) in object code or executable form under the terms
      of Sections 1 and 2 above provided that you also do one of the
      following:
@@ -236,7 +236,7 @@ modification follow.
      distribution of the source code, even though third parties are not
      compelled to copy the source along with the object code.
 
-  5. You may not copy, modify, sublicense, or distribute the Program
+  4. You may not copy, modify, sublicense, or distribute the Program
      except as expressly provided under this License.  Any attempt
      otherwise to copy, modify, sublicense or distribute the Program is
      void, and will automatically terminate your rights under this
@@ -244,7 +244,7 @@ modification follow.
      from you under this License will not have their licenses
      terminated so long as such parties remain in full compliance.
 
-  6. You are not required to accept this License, since you have not
+  5. You are not required to accept this License, since you have not
      signed it.  However, nothing else grants you permission to modify
      or distribute the Program or its derivative works.  These actions
      are prohibited by law if you do not accept this License.
@@ -253,7 +253,7 @@ modification follow.
      License to do so, and all its terms and conditions for copying,
      distributing or modifying the Program or works based on it.
 
-  7. Each time you redistribute the Program (or any work based on the
+  6. Each time you redistribute the Program (or any work based on the
      Program), the recipient automatically receives a license from the
      original licensor to copy, distribute or modify the Program
      subject to these terms and conditions.  You may not impose any
@@ -261,7 +261,7 @@ modification follow.
      granted herein.  You are not responsible for enforcing compliance
      by third parties to this License.
 
-  8. If, as a consequence of a court judgment or allegation of patent
+  7. If, as a consequence of a court judgment or allegation of patent
      infringement or for any other reason (not limited to patent
      issues), conditions are imposed on you (whether by court order,
      agreement or otherwise) that contradict the conditions of this
@@ -294,7 +294,7 @@ modification follow.
      This section is intended to make thoroughly clear what is believed
      to be a consequence of the rest of this License.
 
-  9. If the distribution and/or use of the Program is restricted in
+  8. If the distribution and/or use of the Program is restricted in
      certain countries either by patents or by copyrighted interfaces,
      the original copyright holder who places the Program under this
      License may add an explicit geographical distribution limitation
@@ -303,20 +303,20 @@ modification follow.
      License incorporates the limitation as if written in the body of
      this License.
 
- 10. The Free Software Foundation may publish revised and/or new
+  9. The Free Software Foundation may publish revised and/or new
      versions of the General Public License from time to time.  Such
      new versions will be similar in spirit to the present version, but
      may differ in detail to address new problems or concerns.
 
      Each version is given a distinguishing version number.  If the
      Program specifies a version number of this License which applies
-     to it and "any later version", you have the option of following
+     to it and "any later version," you have the option of following
      the terms and conditions either of that version or of any later
      version published by the Free Software Foundation.  If the Program
      does not specify a version number of this License, you may choose
      any version ever published by the Free Software Foundation.
 
- 11. If you wish to incorporate parts of the Program into other free
+ 10. If you wish to incorporate parts of the Program into other free
      programs whose distribution conditions are different, write to the
      author to ask for permission.  For software which is copyrighted
      by the Free Software Foundation, write to the Free Software
@@ -327,7 +327,7 @@ modification follow.
 
                                 NO WARRANTY
 
- 12. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO
+ 11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO
      WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE
      LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
      HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT
@@ -338,7 +338,7 @@ modification follow.
      PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY
      SERVICING, REPAIR OR CORRECTION.
 
- 13. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN
+ 12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN
      WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY
      MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE
      LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL,
@@ -377,9 +377,9 @@ the "copyright" line and a pointer to where the full notice is found.
      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
      GNU General Public License for more details.
      
-     You should have received a copy of the GNU General Public License
-     along with this program; if not, write to the Free Software
-     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+     You should have received a copy of the GNU General Public License along
+     with this program; if not, write to the Free Software Foundation, Inc.,
+     59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
 
    Also add information on how to contact you by electronic and paper
 mail.
@@ -387,7 +387,7 @@ mail.
    If the program is interactive, make it output a short notice like
 this when it starts in an interactive mode:
 
-     Gnomovision version 69, Copyright (C) 19YY NAME OF AUTHOR
+     Gnomovision version 69, Copyright (C) 20YY NAME OF AUTHOR
      Gnomovision comes with ABSOLUTELY NO WARRANTY; for details
      type `show w'.  This is free software, and you are welcome
      to redistribute it under certain conditions; type `show c'
@@ -540,13 +540,13 @@ Concept Index
 
 
 Tag Table:
-Node: Top1082
-Node: Instructions1493
-Node: Copying1981
-Node: Overview21140
-Node: Sample21671
-Node: Invoking hello22399
-Node: Problems23031
-Node: Concept Index23660
+Node: Top1078
+Node: Instructions1489
+Node: Copying1977
+Node: Overview21169
+Node: Sample21700
+Node: Invoking hello22428
+Node: Problems23060
+Node: Concept Index23689
 
 End Tag Table

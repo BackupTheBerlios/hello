@@ -1,69 +1,69 @@
 # Messages français pour GNU concernant hello.
-# Copyright (C) 1996 Free Software Foundation, Inc.
-# Michel Robitaille <robitail@IRO.UMontreal.CA>, 1996.
+# Copyright © 1996 Free Software Foundation, Inc.
+# Michel Robitaille <robitail@IRO.UMontreal.CA>, traducteur depuis/since 1996.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU hello 2.0.50\n"
-"POT-Creation-Date: 2002-05-22 19:23+0200\n"
-"PO-Revision-Date: 2002-03-16 21:00-0500\n"
+"POT-Creation-Date: 2002-02-02 17:03+0100\n"
+"PO-Revision-Date: 2002-08-04 08:00-0500\n"
 "Last-Translator: Michel Robitaille <robitail@IRO.UMontreal.CA>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/getopt.c:693
+#: src/getopt.c:691
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
 msgstr "%s: l'option « %s » est ambiguë.\n"
 
-#: src/getopt.c:718
+#: src/getopt.c:716
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
 msgstr "%s: l'option « --%s » ne permet pas un autre paramètre.\n"
 
-#: src/getopt.c:723
+#: src/getopt.c:721
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
 msgstr "%s: l'option « %c%s » ne permet pas un autre paramètre.\n"
 
-#: src/getopt.c:741 src/getopt.c:914
+#: src/getopt.c:739 src/getopt.c:912
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
 msgstr "%s: l'option « %s » requiert un paramètre.\n"
 
-#: src/getopt.c:770
+#: src/getopt.c:768
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
 msgstr "%s: l'option « --%s » n'est pas reconnue.\n"
 
-#: src/getopt.c:774
+#: src/getopt.c:772
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
 msgstr "%s: l'option « %c%s » n'est pas reconnue.\n"
 
-#: src/getopt.c:800
+#: src/getopt.c:798
 #, c-format
 msgid "%s: illegal option -- %c\n"
 msgstr "%s: l'option -- %c est illégale.\n"
 
-#: src/getopt.c:803
+#: src/getopt.c:801
 #, c-format
 msgid "%s: invalid option -- %c\n"
 msgstr "%s: l'option -- %c est invalide.\n"
 
-#: src/getopt.c:833 src/getopt.c:963
+#: src/getopt.c:831 src/getopt.c:961
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
 msgstr "%s: l'option -- %c requiert un paramètre.\n"
 
-#: src/getopt.c:880
+#: src/getopt.c:878
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
 msgstr "%s: l'option « -W %s » est ambiguë.\n"
 
-#: src/getopt.c:898
+#: src/getopt.c:896
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
 msgstr "%s: l'option « -W %s » ne permet pas un autre paramètre.\n"
@@ -109,8 +109,7 @@ msgid ""
 "  -m, --mail              print your mail\n"
 msgstr ""
 "  -t, --traditional       utiliser le format traditionnel de salutations\n"
-"  -n, --next-generation   utiliser le format de nouvelle génération pour les "
-"salutations\n"
+"  -n, --next-generation   utiliser le format de nouvelle génération pour les salutations\n"
 "  -m, --mail              lire votre courrier\n"
 
 #. TRANSLATORS: --help output 5 (end)
@@ -210,10 +209,8 @@ msgstr "%s: mémoire virtuelle épuisée\n"
 
 #~ msgid ""
 #~ "Copyright (C) %s Free Software Foundation, Inc.\n"
-#~ "This is free software; see the source for copying conditions.  There is "
-#~ "NO\n"
-#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR "
-#~ "PURPOSE.\n"
+#~ "This is free software; see the source for copying conditions.  There is NO\n"
+#~ "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 #~ msgstr ""
 #~ "Copyright © %s Free Software Foundation, Inc.\n"
 #~ "Ce logiciel est libre; voir les sources pour les conditions de\n"

@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.0.50\n"
+"Project-Id-Version: hello 2.1.1\n"
 "POT-Creation-Date: 2002-05-22 19:23+0200\n"
-"PO-Revision-Date: 2002-02-08 08:53+0100\n"
+"PO-Revision-Date: 2002-06-11 10:32+0200\n"
 "Last-Translator: Marcel Telka <marcel@telka.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
@@ -123,8 +123,7 @@ msgstr ""
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 "Správy o chybách zasielajte na adresu <%s> (iba anglicky).\n"
-"Komentáre k slovenskému prekladu zasielajte na adresu <sk-i18n@lists.linux."
-"sk>.\n"
+"Komentáre k slovenskému prekladu zasielajte na adresu <sk-i18n@lists.linux.sk>.\n"
 
 #: src/hello.c:217
 #, c-format

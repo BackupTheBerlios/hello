@@ -25,6 +25,7 @@ MAINT_CHARSET = latin1
 # previous version
 ke_PRE = @ke_PRE@
 
+DISTCLEANFILES = stamp-h
 EXTRA_DIST = BUGS ChangeLog.O config.rpath
 
 SUBDIRS = contrib doc intl po src man m4 tests
@@ -57,12 +58,12 @@ Before building the programm run \`autoconf' and \`autoheader' to rebuild\n\
 	    $(PACKAGE)-$(ke_PRE)-$(VERSION).diff
 	gzip --force --best $(PACKAGE)-$(ke_PRE)-$(VERSION).diff
 
-pot-to-trans:
 # 	gzip < po/hello.pot \
 # 	  | uuencode -m hello-$(VERSION).pot.gz \
 # 	  | mail -s "TP-Robot hello-$(VERSION).pot" translation@iro.umontreal.ca
+pot-to-trans:
 	echo "http://www.gnu.franken.de/ke/hello/hello-$(VERSION).tar.bz2" \
 	  | mail -s "TP-Robot hello-$(VERSION).pot" \
 	    translation@iro.umontreal.ca
-	
+
 ## Makefile.am ends here

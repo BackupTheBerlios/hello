@@ -38,16 +38,14 @@
 #include <unistd.h>
 #endif
 
-#ifdef HAVE_LOCALE_H
-#include <locale.h>
-#endif
-
-#if ENABLE_NLS
-#include <libintl.h>
-#define _(String) gettext (String)
+#if HAVE_LOCALE_H
+# include <locale.h>
 #else
-#define _(String) (String)
+# define setlocale(Category, Locale)
 #endif
+#include "gettext.h"
+#define _(str) gettext (str)
+#define N_(str) gettext_noop (str)
 
 #ifndef errno
 extern int errno;

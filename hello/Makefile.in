@@ -89,7 +89,6 @@ LTLIBICONV = @LTLIBICONV@
 LTLIBINTL = @LTLIBINTL@
 MKINSTALLDIRS = @MKINSTALLDIRS@
 PACKAGE = @PACKAGE@
-PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@
 PERL = @PERL@
 POSUB = @POSUB@
 RANLIB = @RANLIB@
@@ -124,9 +123,9 @@ RECURSIVE_TARGETS = info-recursive dvi-recursive install-info-recursive \
 	install-exec-recursive installdirs-recursive install-recursive \
 	uninstall-recursive check-recursive installcheck-recursive
 DIST_COMMON = README ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL \
-	Makefile.am Makefile.in NEWS README-alpha THANKS TODO \
-	aclocal.m4 config.guess config.h.in config.rpath config.sub \
-	configure configure.ac depcomp install-sh missing mkinstalldirs
+	Makefile.am Makefile.in NEWS THANKS TODO aclocal.m4 \
+	config.guess config.h.in config.rpath config.sub configure \
+	configure.ac depcomp install-sh missing mkinstalldirs
 DIST_SUBDIRS = $(SUBDIRS)
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive
@@ -488,9 +487,12 @@ Before building the programm run \`autoconf' and \`autoheader' to rebuild\n\
 	gzip --force --best $(PACKAGE)-$(ke_PRE)-$(VERSION).diff
 
 pot-to-trans:
-	gzip < po/hello.pot \
-	  | uuencode -m hello-$(VERSION).pot.gz \
-	  | mail -s "TP-Robot hello-$(VERSION).pot" translation@iro.umontreal.ca
+# 	gzip < po/hello.pot \
+# 	  | uuencode -m hello-$(VERSION).pot.gz \
+# 	  | mail -s "TP-Robot hello-$(VERSION).pot" translation@iro.umontreal.ca
+	echo "http://www.gnu.franken.de/ke/hello/hello-$(VERSION).tar.bz2" \
+	  | mail -s "TP-Robot hello-$(VERSION).pot" \
+	    translation@iro.umontreal.ca
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:

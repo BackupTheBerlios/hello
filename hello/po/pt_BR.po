@@ -1,13 +1,15 @@
 # Brazilian portuguese messages for hello.
-# Copyright © 1999 Free Software Foundation, Inc.
-# Rodrigo Parra Novo <rodarvus@conectiva.com.br>, 1999.
+# Copyright (C) 1999, 2002 Free Software Foundation, Inc.
+# Alexandre Folle de Menezes <afmenez@terra.com.br>, 2002.
+# based on the previous translation to pt_BR (v1.3.24) by
+# Rodrigo Parra Novo <rodrigo.novo@corp.terralycos.com>, 1999.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 1.3.24\n"
+"Project-Id-Version: hello 2.1.1\n"
 "POT-Creation-Date: 2002-05-22 19:23+0200\n"
-"PO-Revision-Date: 1999-10-04 10:00-0200\n"
-"Last-Translator: Rodrigo Parra Novo <rodarvus@conectiva.com.br>\n"
+"PO-Revision-Date: 2002-10-29 21:15-0200\n"
+"Last-Translator: Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -73,22 +75,22 @@ msgid "Too many arguments\n"
 msgstr "Argumentos demais\n"
 
 #: src/hello.c:165
-#, fuzzy, c-format
+#, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Tente `%s --help' para maiores informações\n"
+msgstr "Tente `%s --help' para maiores informações.\n"
 
 #. TRANSLATORS: --help output 1
 #. no-wrap
 #: src/hello.c:177
 msgid "GNU hello, THE greeting printing program.\n"
-msgstr ""
+msgstr "GNU hello, `O' programa de impressão de saudação.\n"
 
 #. TRANSLATORS: --help output 2
 #. no-wrap
 #: src/hello.c:182
 #, c-format
 msgid "Usage: %s [OPTION]\n"
-msgstr ""
+msgstr "Uso: %s [OPÇÃO]\n"
 
 #. TRANSLATORS: --help output 3 : options 1/2
 #. no-wrap
@@ -97,6 +99,8 @@ msgid ""
 "  -h, --help          display this help and exit\n"
 "  -v, --version       display version information and exit\n"
 msgstr ""
+"  -h, --help          mostra esta ajuda e sai\n"
+"  -v, --version       mostra informações sobre a versão e sai\n"
 
 #. TRANSLATORS: --help output 4 : options 2/2
 #. no-wrap
@@ -106,6 +110,9 @@ msgid ""
 "  -n, --next-generation   use next-generation greeting format\n"
 "  -m, --mail              print your mail\n"
 msgstr ""
+"  -t, --traditional       usa formato de saudação tradicional\n"
+"  -n, --next-generation   use formato de saudação de próxima geração\n"
+"  -m, --mail              mostra o seu correio eletrônico\n"
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS, please don't forget to add the contact address for
@@ -115,9 +122,11 @@ msgstr ""
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
+"Reporte erros para <%s>.\n"
+"Reporte erros da tradução para <afmenez@terra.com.br>.\n"
 
 #: src/hello.c:217
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) %s Free Software Foundation, Inc.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
@@ -125,17 +134,16 @@ msgid ""
 "of the GNU General Public License.\n"
 "For more information about these matters, see the file named COPYING.\n"
 msgstr ""
-"\n"
 "Copyright (C) %s Free Software Foundation, Inc.\n"
-"There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\n"
-"PARTICULAR PURPOSE.  You may redistribute copies of GNU %s under the terms\n"
-"of the GNU General Public License.\n"
-"For more information about these matters, see the file named COPYING.\n"
+"NÃO existe qualquer garantia; nem mesmo a garantia de COMERCIABILIDADE ou\n"
+"ADEQUAÇÃO À QUALQUER FINALIDADE PARTICULAR.  O GNU %s pode ser redistribuído\n"
+"nos termos da Licensa Geral Pública GNU.\n"
+"Para mais informação sobre esse assunto, veja o arquivo com nome COPYING.\n"
 
 #: src/hello.c:228
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Incompatible flags: -m and -t\n"
-msgstr "%s: opções incompativeis: -m e -t\n"
+msgstr "%s: opções incompatíveis: -m e -t\n"
 
 #: src/hello.c:260
 #, c-format
@@ -143,10 +151,9 @@ msgid "%s: Who are you?\n"
 msgstr "%s: Quem é você?\n"
 
 #: src/hello.c:282
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot find your mail spool file.\n"
-msgstr ""
-"%s: não foi possível encontrar o seu arquivo de spool de correio eletrônico\n"
+msgstr "%s: não foi possível encontrar o seu arquivo de spool de correio eletrônico.\n"
 
 #: src/hello.c:326
 msgid "Nothing happens here."
@@ -168,36 +175,15 @@ msgid ""
 "| Hello, world! |\n"
 "+---------------+\n"
 msgstr ""
+"+-----------------+\n"
+"| Bom dia, mundo! |\n"
+"+-----------------+\n"
 
 #: src/hello.c:346
 msgid "Hello, world!"
 msgstr "Bom dia, mundo!"
 
 #: src/hello.c:361
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Virtual memory exhausted\n"
-msgstr "%s: memória virtual exaurida\n"
-
-#, fuzzy
-#~ msgid ""
-#~ "GNU hello, THE greeting printing program.\n"
-#~ "\n"
-#~ "Usage: %s [OPTION]\n"
-#~ "\n"
-#~ "  -h, --help          display this help and exit\n"
-#~ "  -v, --version       display version information and exit\n"
-#~ "  -t, --traditional   use traditional greeting format\n"
-#~ "  -m, --mail          print your mail\n"
-#~ "\n"
-#~ "Report bugs to bug-gnu-hello@prep.ai.mit.edu.\n"
-#~ msgstr ""
-#~ "GNU Hello, O programa de boas-vindas\n"
-#~ "\n"
-#~ "Uso: %s [OPÇÃO]\n"
-#~ "\n"
-#~ "  -h, --help          mostra esta ajuda e sai\n"
-#~ "  -v, --version       mostra informações sobre a versão e sai\n"
-#~ "  -t, --traditional   usa mensagem de boas-vindas tradicional\n"
-#~ "  -m, --mail          mostra o seu correio eletrônico\n"
-#~ "\n"
-#~ "Reporte erros para bug-gnu-hello@prep.ai.mit.edu.\n"
+msgstr "%s: Memória virtual esgotada\n"

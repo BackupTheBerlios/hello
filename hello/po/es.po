@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU hello 1.3.37\n"
+"Project-Id-Version: GNU hello 2.1.1\n"
 "POT-Creation-Date: 2002-05-22 19:23+0200\n"
-"PO-Revision-Date: 2002-02-01 17:04+0100\n"
+"PO-Revision-Date: 2002-06-20 16:02+0200\n"
 "Last-Translator: Santiago Vila Doncel <sanvila@unex.es>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -113,6 +113,7 @@ msgstr ""
 "  -n, --next-generation   utiliza el formato de saludo más novedoso\n"
 "  -m, --mail              imprime su correo\n"
 
+# Véase "A bug's life".
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS, please don't forget to add the contact address for
 #. your translation!
@@ -120,7 +121,9 @@ msgstr ""
 #: src/hello.c:205
 #, c-format
 msgid "Report bugs to <%s>.\n"
-msgstr "Comunicar `bugs' a <%s>.\n"
+msgstr ""
+"Comunicar bichos a <%s>.\n"
+"Comunicar errores de traducción a <es@li.org>.\n"
 
 #: src/hello.c:217
 #, c-format
@@ -135,8 +138,7 @@ msgstr ""
 "No hay NINGUNA garantía; ni siquiera de COMERCIABILIDAD o IDONEIDAD PARA UN\n"
 "FIN DETERMINADO. Se pueden redistribuir copias de GNU %s bajo los términos\n"
 "de la Licencia Pública General de GNU.\n"
-"Para más información sobre estas cuestiones, vea el fichero llamado "
-"COPYING.\n"
+"Para más información sobre estas cuestiones, vea el fichero llamado COPYING.\n"
 
 #: src/hello.c:228
 #, c-format

@@ -22,6 +22,8 @@ bin_PROGRAMS = hello
 hello_SOURCES = hello.c version.c getopt.c getopt1.c getopt.h system.h 
 # hello_SOURCES = getopt.c getopt1.c getopt.h hello.c system.h \
 # version-etc.h version-etc.c
+noinst_HEADERS = gettext.h
+
 hello_LDADD = @LIBINTL@ @ALLOCA@
 
 localedir = $(datadir)/locale

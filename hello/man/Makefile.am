@@ -6,10 +6,12 @@ HELP2MAN = help2man
 noinst_SCRIPTS = $(HELP2MAN)
 
 EXTRA_DIST = $(man_MANS) $(noinst_SCRIPTS) # $(man_aux)
+CLEANFILES = $(man_MANS)
 #  Makefile.maint GNUmakefile Makefile.summ
 
 hello.1: ../src/hello $(HELP2MAN)
-	$(PERL) $(HELP2MAN) --name="Friendly Greeting Program" ../src/hello >$@
+	$(PERL) $(srcdir)/$(HELP2MAN) --name="Friendly Greeting Program" \
+	  ../src/hello >$@
 
 MAINTAINERCLEANFILES = $(man_MANS)
 

@@ -4,9 +4,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hello 2.0.50\n"
+"Project-Id-Version: hello 2.1.1\n"
 "POT-Creation-Date: 2002-05-22 19:23+0200\n"
-"PO-Revision-Date: 2002-03-15 13:58+0300\n"
+"PO-Revision-Date: 2002-06-24 13:21+0400\n"
 "Last-Translator: Oleg S. Tihonov <tihonov@ffke-campus.mipt.ru>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"

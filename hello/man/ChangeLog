@@ -1,3 +1,12 @@
+2002-07-20  Karl Eichwalder  <keichwa@gmx.net>
+
+	* Makefile.am (CLEANFILES): New variable, add $(man_MANS).
+
+2002-07-20  Karl Eichwalder  <keichwa@gmx.net>
+
+	* Makefile.am (hello.1): Add $(srcdir)/; thus perl will find
+	$(HELP2MAN) compilations takes place outside the source tree.
+
 2002-01-25  Karl Eichwalder  <keichwa@gmx.net>
 
 	* Makefile.am (hello.1): Use ../src/hello instead of $< for
