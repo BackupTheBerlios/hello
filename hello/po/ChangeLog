@@ -1,6 +1,11 @@
+2003-05-01  Karl Eichwalder  <ke@gnu.franken.de>
+
+	* ro.po: New file (Eugen Hoanca).
+	* LINGUAS: Add ro.
+
 2003-02-26  Karl Eichwalder  <ke@gnu.franken.de>
 
-	* ka.po: New file (Nugzar Nebieridze)
+	* ka.po: New file (Nugzar Nebieridze).
 	* LINGUAS: Add ka.
 
 2002-12-07  Karl Eichwalder  <ke@gnu.franken.de>
